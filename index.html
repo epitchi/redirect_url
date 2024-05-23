@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>THINKMAY THÔNG BÁO</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f0f8f7;
+            color: #333;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+        .container {
+            text-align: center;
+            background-color: #fff;
+            padding: 20px 40px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            color: #008080;
+        }
+        h2 {
+            color: #006666;
+        }
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+            }
+            to {
+                opacity: 1;
+            }
+        }
+        .container {
+            animation: fadeIn 1.5s ease-in-out;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>THINKMAY THÔNG BÁO</h1>
+        <h1>Đã đổi url từ supabase.thinkmay.net -> play.thinkmay.net</h1>
+        <h2>Hệ thống sẽ tự động chuyển qua trong vòng 3s nữa</h2>
+    </div>
+    <script>
+        setTimeout(() => {
+            window.location.href = 'https://play.thinkmay.net'
+        }, 3000);
+    </script>
+</body>
+</html>
